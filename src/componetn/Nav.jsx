@@ -11,10 +11,10 @@ function Nav() {
 
   return (
     <div>
-      <nav className="flex justify-between lg:justify-start items-center h-13 lg:h-16 text-white bg-gradient-to-r from-lime-500 to-lime-600  w-full fixed px-5 md:px-5 lg:px-25 py-1.5 shadow-md z-50">
+      <nav className="flex justify-between lg:justify-start items-center h-13 lg:h-16 text-white bg-gradient-to-r from-neutral-700 to-neutral-900 w-full fixed px-5 md:px-5 lg:px-25 py-1.5 shadow-md z-50">
         <img
-          className="h-full brightness-75 invert"
-          src="https://i5.walmartimages.com/seo/Rick-and-Morty-Metal-Wall-Art_bcc4085e-c311-4886-a7a4-aa58127883d7.5958f8a36f96aa4c08dbc4a8a580e57c.png"
+          className="h-full invert"
+          src="https://w7-d4-lab2-crhf.onrender.com"
           alt=""
         />
         <ul className="hidden gap-5 ml-10 text-lg font-medium text-neutral-200 lg:flex">
@@ -22,7 +22,7 @@ function Nav() {
             <Link to="/home">Home</Link>
           </li>
           <li className="transition duration-500 ease-in-out hover:text-white hover:scale-105">
-            <Link to="/post">Post</Link>
+            <Link to="/post">List</Link>
           </li>
         </ul>
         <div

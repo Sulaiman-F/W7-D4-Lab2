@@ -9,10 +9,10 @@ import { FaDiscord } from "react-icons/fa";
 function Footer() {
   return (
     <>
-      <footer className="flex flex-col w-full px-5 py-6 text-white gap-y-3 bg-gradient-to-r from-lime-500 to-lime-600 md:px-5 lg:px-25 ">
+      <footer className="flex flex-col w-full px-5 py-6 text-white gap-y-3 bg-gradient-to-r from-neutral-700 to-neutral-900 md:px-5 lg:px-25 ">
         <div className="flex flex-col md:flex-row md:justify-between gap-y-4">
           <div className="flex flex-col ">
-            <h1 className="text-2xl font-bold">Character Gallery!</h1>
+            <h1 className="text-2xl font-bold">ToList</h1>
             <p className="pl-1.5 text-sm md:text-base text-neutral-200 w-3/4 md:w-1/2">
               Thank you for visiting! Stay tuned for new characters and updates
               from across the universe.
@@ -24,7 +24,7 @@ function Footer() {
               <li className="text-sm md:text-base text-neutral-100">
                 Email:{" "}
                 <span className="text-xs md:text-sm text-neutral-100">
-                  contact@charactergallery.com
+                  contact@tolist.com
                 </span>
               </li>
               <li className="text-sm md:text-base text-neutral-100">
@@ -52,7 +52,7 @@ function Footer() {
         </div>
         <div className="text-center text-white ">
           <p className="text-xs md:text-sm text-neutral-200">
-            © 2025 Character Gallery. All rights reserved.
+            © 2025 ToList. All rights reserved.
           </p>
         </div>
       </footer>
